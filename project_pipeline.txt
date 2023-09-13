@@ -1,0 +1,6 @@
+1. We get our image from the webcam
+2. Convert it into grayscale and apply edge detector to find edges
+3. Find all the contours present in the image -> from this we will filter adn get the biggest contour
+4. With the corner points of biggest contour we will use work perspective to get the desired image
+5. Apply the adaptive thresholding to get the scanned paper
+6. Save image to a folder

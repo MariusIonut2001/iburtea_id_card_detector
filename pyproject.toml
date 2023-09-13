@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "iburtea-id-card-detector"
+version = "0.1.0"
+description = ""
+authors = ["Burtea Ionut Marius <139539958+MariusIonut2001@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.8.0.76"
+utils = "^1.0.1"
+amp = "^1.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
